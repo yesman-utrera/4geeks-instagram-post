@@ -1,0 +1,64 @@
+body {
+  font-family: sans-serif;
+  background: black;
+  min-height: 100vh;
+  display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.wrapper {
+  background: whitesmoke;
+  width:600px; 
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+	justify-content: space-between;
+}
+
+#html-icon {
+  font-size: 50px;
+  padding: 20px;
+}
+
+#button-top {
+ 
+  font-size: 40px;
+  color:black;
+  padding: 20px;
+  justify-content: flex-end;
+}
+
+.header p {
+  font-size: 20px;
+  flex-grow: 4;
+}
+
+.img{
+  width: 100%
+}
+
+.icons {
+  font-size: 40px;
+  padding: 10px;
+}
+
+.icon{
+  color:black;
+}
+
+.icons #bookmark {
+  float: right;
+  margin:0;
+  padding:0 10px 0 0;
+}
+
+.text {
+  padding:0 10px;
+}
+
